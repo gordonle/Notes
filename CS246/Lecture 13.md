@@ -17,9 +17,9 @@ Node n2{2, &n1};
 
 When these two nodes go out of scope, the destructor will call `delete` on the stack allocated nodes. This is not allowed.
 
-Node assumed that `next` is either `nullptr` or points to the heap. ==**Invariants**== are statements or assumptions that must continue to be true for the class/function to continue to behave as desired.
+Node assumed that `next` is either `nullptr` or points to the heap. **Invariants** are statements or assumptions that must continue to be true for the class/function to continue to behave as desired.
 
-By creating `n2`, we violated this invariant. To reason about program correctness, we must guarantee that invariants are not violated. To do this, we use the concept of ==**encapsulation**== . 
+By creating `n2`, we violated this invariant. To reason about program correctness, we must guarantee that invariants are not violated. To do this, we use the concept of **encapsulation**. 
 
 ## Encapsulation
 
@@ -108,9 +108,9 @@ Now suppose we want to print the list. What is the cost? Since the only way to a
 
 This is a way to traverse our Linked List in $O(n)$ time. We will need to keep track of where we are inside the List. 
 
-==**CHALLENGE**==: do this *without* using a public Node pointer.
+**<u>CHALLENGE</u>**: do this *without* using a public Node pointer.
 
-==**SOLUTION**==: create another class that keeps track of where we are, but does so privately. This iterator class will act as an abstraction of a pointer inside the list.
+**<u>SOLUTION</u>**: create another class that keeps track of where we are, but does so privately. This iterator class will act as an abstraction of a pointer inside the list.
 
 > Iterating through an array with pointers:
 >

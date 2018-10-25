@@ -74,7 +74,7 @@ Only the owner can change permissions
 
 ## Shell Variables
 
-- `x=1` (no spaces) creates variables x with ==<u>string</u>== variable “1”
+- `x=1` (no spaces) creates variables x with <u>string</u> variable “1”
 - `echo ${x}` prints out the variable
 
 ```bash
@@ -86,10 +86,10 @@ echo '${dir}' // prints out ${dir}
 > Single quotes will suppress converting variables to value
 
 - PATH
-  - a bunch of paths separated by ==:==
+  - a bunch of paths separated by `:`
   - used by the shell to search for commands/programs
 
 ## Shell Scripting
 
-- Sequence of linux commands written in a text file ==.txt== and then executed as a program
-- Script: <u>basic</u> ==#!/bin/bash== - known as the shebang line DONT FORGET IT YOU’LL LOSE A MARK
+- Sequence of linux commands written in a text file `.txt` and then executed as a program
+- Script: <u>basic</u> `#!/bin/bash` - known as the shebang line DONT FORGET IT YOU’LL LOSE A MARK

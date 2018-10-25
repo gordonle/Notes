@@ -38,7 +38,7 @@ string s("hello");
 string s{"hello"};
 ```
 
-==Note==: We do not use the keyword `new`, as that will place it on the **heap** and not the **stack**.
+**NOTE**: We do not use the keyword `new`, as that will place it on the **heap** and not the **stack**.
 
 As mentioned before, the recommended initialization syntax is to use `{  }`.
 
@@ -80,7 +80,7 @@ Student s4; // no curly braces here - this will call the default constructor
 
 ### Default Constructor
 
-Every class comes with a default (0 parameter) constructor, which initializes ==fields that are objects== by calling its default constructor.
+Every class comes with a default (0 parameter) constructor, which initializes **fields that are objects** by calling its default constructor.
 
 ```c++
 struct A{
@@ -145,7 +145,7 @@ A problem arises when we want a unique constant for each instance of the object.
 
 Do not use in-class initialization
 
-==Rule==: `const`/`refs` must be initialized before the constructor body function runs.
+**RULE**: `const`/`refs` must be initialized before the constructor body function runs.
 
 ##### Steps for Object Construction
 
@@ -178,14 +178,14 @@ Student bobby{billy}; // calls the copy constructor
 
 When we create a class, it automatically comes with:
 
-| Feature                  | Description                                 |
-| ------------------------ | ------------------------------------------- |
-| Default constructor      | 0 parameter constructor                     |
-| Copy constructor         | Creates an object that is a copy of another |
-| Copy assignment operator |                                             |
-| Destructor               |                                             |
-| Move constructor         |                                             |
-| Move assignment operator |                                             |
+| Feature                  | Description                                                  |
+| ------------------------ | ------------------------------------------------------------ |
+| Default constructor      | 0 parameter constructor                                      |
+| Copy constructor         | Creates an object that is a copy of another                  |
+| Copy assignment operator | Copies the contents of one object into another               |
+| Move constructor         | Creates an object and moves the contents of another to it, deleting the other |
+| Move assignment operator | Moves the contents of one object to another                  |
+| Destructor               | Runs the destructor body, deletes each field, then frees memory allocated |
 
 The last 5 in the above list are known as “**The Big 5**”.
 

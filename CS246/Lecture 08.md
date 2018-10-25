@@ -154,7 +154,7 @@ To “comment out code” from the preprocessor, we can do
 #ifndef VAR		// true, if VAR is NOT defined
 ```
 
-==NOTE==: `#define` is **<u>literally</u>** searching and replacing, so if you `#define a` all instances of `a` (not like “apple” but just “a”) will be replaced with the `VALUE`.
+==NOTE==: `#define` is **<u>literally</u>** searching and replacing, so if you `#define a`, all instances of `a` (not like “apple” but just “a”) will be replaced with the `VALUE`.
 
 #### Printing out Debugging Messages
 
@@ -224,7 +224,7 @@ $> g++ *.cc
 $> g++ main.cc vec.cc
 ```
 
-==NOTE==: Header files are <u>never</u> compiled. Separate compilation is the process of merging the separately compiled files.
+**NOTE**: Header files are <u>never</u> compiled. Separate compilation is the process of merging the separately compiled files.
 
 We cannot compile these programs separately.
 

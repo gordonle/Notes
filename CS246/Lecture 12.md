@@ -47,7 +47,7 @@ Node &Node::operator=(Node && Node) {
 
 If a move constructor/move assignment operator is available, it will be used whenever the RHS is an `rvalue` reference. 
 
-==Note==: The default move constructor/move assignment operator go away if you write **any** of the Big 5.
+**NOTE**: The default move constructor/move assignment operator go away if you write **any** of the Big 5.
 
 ## Rule Of 5
 

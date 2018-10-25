@@ -13,8 +13,8 @@
 - Write small tests that focus on one thing at a time
 - Check various classes of input
   - ie. numeric ranges, positive, negative, zero
-  - boundaries between ranges (==edge cases==)
-  - simultaneous boundaries (==corner cases==)
+  - boundaries between ranges (edge cases)
+  - simultaneous boundaries (corner cases)
 - Always make sure to read assignments carefully, pay attention to details
 
 ## C++
@@ -22,7 +22,7 @@
 - Developed by Bjarne Stroustrup
   - Simula 67 was the first Object-Oriented (OO) language
   - Added OOP concepts to C and called it “C with classes”
-    - Now renamed to ==C++==
+    - Now renamed to **C++**
       - Standards are C++99, C++03, C++14, C++17 (all stable)
       - We use C++14
 - Most C programs are valid C++ programs, to this day
@@ -92,12 +92,12 @@ $> g++14 myfile.cc # this is an alias, without -o default executable is named "a
 
 **<u>Note:</u>** 
 
-- `cin` will read the first non-whitespace character until it hits whitespace. Other than separating inputs, ==whitespace is being ignored==.
+- `cin` will read the first non-whitespace character until it hits whitespace. Other than separating inputs, **whitespace is being ignored**.
 - If a read fails because
-  - of bad input type, the variable will be ==set to 0==
-  - there is no more input (EOF `ctrl-d`) the variable is also set to 0
-- If a read fails, the expression `cin.fail()` is ==true==
-- If a read fails due to EOF, both `cin.fail()` and `cin.eof()` are ==true== 
+  - of bad input type, the variable will be set to **0**
+  - there is no more input (EOF `Ctrl+d`) the variable is also set to **0**
+- If a read fails, the expression `cin.fail()` is **true**
+- If a read fails due to EOF, both `cin.fail()` and `cin.eof()` are **true**
 
 > ### Read all ints from stdin and echo them to stdout. Stop if a read fails.
 >

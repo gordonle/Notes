@@ -17,7 +17,7 @@ Node n{4};
 Node n = 4;
 ```
 
-One parameter constructors create ==implicit/automatic conversions==. Now, we can do things like
+One parameter constructors create **implicit/automatic conversions**. Now, we can do things like
 
 ```c++
 void foo(Node n){...}

@@ -19,7 +19,7 @@ $> g++ -c vec.cc
 # This tells the linker to **NOT** link and produce the executable
 ```
 
-This produces ==object files==  `.o`. These files:
+This produces **object files**  `.o`. These files:
 
 - contain compiled code
 - info about what is defined and what is required
@@ -30,7 +30,7 @@ This produces ==object files==  `.o`. These files:
 $> g++ main.o vec.o
 ```
 
-The linker then checks that all “promises” have been kept.  If all of them have been kept, then an executable is made.
+The **linker** then checks that all “promises” have been kept.  If all of them have been kept, then an executable is made.
 
 ## Recompilation Book Keeping
 
@@ -206,7 +206,7 @@ float Student::grade() {
 
 ### Initializing Objects
 
-==C-style initialization==: All the values given as fields must be **constants**
+<u>C-style initialization</u>: All the values given as fields must be **constants**
 
 ```c++
 Student billy{60, 50, 70};

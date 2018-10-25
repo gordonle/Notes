@@ -39,8 +39,8 @@ In C++, we aren’t comparing pointers as we were in C, so a lot of comparisons 
 > int x{5};
 > ```
 >
-> - This is recommended because there are certain situations, such when defining classes, the ==old way== of initialization won’t work
-> - The recommended way works ==always==
+> - This is recommended because there are certain situations, such when defining classes, the old way of initialization won’t work
+> - The recommended way works **always**
 
 #### Reading Strings
 
@@ -68,7 +68,7 @@ cout << x; // prints in decimal
 | Manipulator       | Purpose                                                    |
 | ----------------- | ---------------------------------------------------------- |
 | `hex`             | Prints in hexadecimal                                      |
-| `dec`             | The ==decimal== manipulator                                |
+| `dec`             | The decimal manipulator                                    |
 | `showpoint`       | Shows decimal                                              |
 | `setprecision(x)` | Specifies the decimal points                               |
 | `boolalpha`       | Takes “true” or “false” and turns them into boolean values |
@@ -87,7 +87,7 @@ cout << showpoint << setprecision(3); // specifies decimal points
 
 ## Reading/Writing Files
 
-The ==“stream abstraction”== can work on other sources of data.
+The **“stream abstraction”** can work on other sources of data.
 
 - In the header, we `#include <fstream>` to read and write files
   - `ifstream` to read from files
@@ -99,7 +99,7 @@ The ==“stream abstraction”== can work on other sources of data.
 #include <iostream>
 #include <fstream> using namespace std;
 int main() {
-   // type  varname  initialization
+   	// type  varname  initialization
 	ifstream myfile{"file.txt"}; 	// this opens the file to read
     string s;
     while (myfile >> s) { 			// myfile is the equivalent to cin
@@ -108,8 +108,8 @@ int main() {
 }
 ```
 
-- Anything we can do with `cin` (type ==istream==), we can do with `myfile` (type ==ifstream==)
-  - Same applies with `cout` and a variable of type ==ofstream==
+- Anything we can do with `cin` (type `istream`), we can do with `myfile` (type `ifstream`)
+  - Same applies with `cout` and a variable of type `ofstream`
 
 ==Note==: When you open a file, you must also close it. How is it closed:
 
@@ -211,6 +211,6 @@ int negate(int i) {return -i}
 int negate(bool b) {return !b}
 ```
 
-- C++ allows functions with the same name ==as long as the # of parameters and/or types differ==
+- C++ allows functions with the same name as long as the **# of parameters and/or types differ**
   - Differing on return types is **<u>not enough</u>** 
 

@@ -22,7 +22,7 @@ operator>>(cin, x); // implemented as a function
 
 This is why `cin >> x` can take either a `string`, `int`, `bool`, etc. There are multiple functions defined to take in each of these argument types.
 
-## structs
+## `structs`
 
 Here’s some C code (remember, most C code is still valid C++ code).
 
@@ -98,7 +98,7 @@ int y = 10;
 int &z = y;		// z is an lvalue reference to y. It's type is "int &"
 ```
 
-An `lvalue` reference is a constant pointer with ==automatic dereferencing==.
+An `lvalue` reference is a constant pointer with **automatic dereferencing**.
 
 > **<u>Note</u>**: `z` will continue to “point” to y forever. And so,
 >
@@ -119,7 +119,7 @@ The compiler **doesn’t even store `z`**, as it will just call `y`. So why do w
 
 #### Things you cannot do with references
 
-1. You cannot leave them ==uninitialized==
+1. You cannot leave them uninitialized
 
    ```c++
    int &z;			// INVALID

@@ -15,8 +15,6 @@ whoami
 pwd
 ```
 
--  ==#!/bin/bash== - known as the shebang line DONT FORGET IT YOU’LL LOSE A MARK
-
 When executing scripts, the shell searches all directories listed in `${PATH}`. If you try to run a script not in one of these path directories it will not work. However, you can **<u>run a script</u>** in any directory using
 
 ```bash
@@ -59,7 +57,7 @@ $2 #contains arg2
 
 #### Exit Status Code
 
-Every process exits with a ==status code==:
+Every process exits with a **status code**:
 
 | Status Code | Result  |
 | ----------- | ------- |
@@ -80,7 +78,7 @@ fi
 
 > **<u>Note</u>**: The spaces in the test command `[ $? -eq 0 ]` are essential. Arguments must be separated by spaces.
 
-Append this to the bottom of ==Ex. 2== for the complete script.
+Append this to the bottom of **Ex. 2** for the complete script.
 
 #### Else If Syntax
 
@@ -155,7 +153,7 @@ mysubroutine arg1 arg2 arg3
 
 ### While Loop
 
-Remember, all variables are of type ==string==
+Remember, all variables are of type **string**
 
 ```bash
 # Print #s from 1 to $1
