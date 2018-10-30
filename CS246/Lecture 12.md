@@ -202,6 +202,12 @@ Calling `grade.( )` on `billy` will not compile unless we add the keyword `const
 
 As such, `const` objects can only call `const` methods!
 
+----------------------------------------------------------------------------
+
+**-- <u>MIDTERM COVERS CONTENT UP UNTIL THIS POINT</u> --**
+
+---
+
 ## Invariants & Encapsulation
 
 Previously, we’ve assumed from our `Node` class was that `next` always points to heap memory or is a `nullptr`, but we never restricted this. This will be covered next lecture.
