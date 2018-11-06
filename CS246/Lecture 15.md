@@ -140,7 +140,7 @@ int main() {
 }
 ```
 
-> In UML, use `#` for `protected`
+> In **UML**, use `#` for `protected`
 
 **<u>Claim</u>**: `private` > `protected`. A class is responsible for maintaining its invariant. If you give protected access to your children, you are trusting them to maintain your invariant. `protected` breaks encapsulation, much like how `friend` does.
 

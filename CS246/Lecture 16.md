@@ -140,6 +140,8 @@ class Y final: public X {
 
 This prevents a child class of `Y` from being created.
 
+## `pure virtual` Methods
+
 > **Co-op VS Non Co-op**
 >
 > ```c++
