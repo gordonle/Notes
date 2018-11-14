@@ -131,7 +131,7 @@ class Text: public Book {
 };
 ```
 
-Anything defined in `protected` ca be accessed by the class and any subclasses. Note
+Anything defined in `protected` can be accessed by the class and any subclasses. Note
 
 ```c++
 int main() {
