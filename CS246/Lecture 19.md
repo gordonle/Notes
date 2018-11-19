@@ -124,7 +124,7 @@ AbstractBook *pt2{&t2};
 
 ## Factory Method Pattern
 
-> View `FMP_UML.png` 
+> View `Factory_Method_UML.png` 
 
 ```c++
 class Level {
