@@ -99,5 +99,3 @@ If there are multiple owners, we use a new type of Smart Pointer, the shared poi
 
 The **shared pointer** uses reference counting. It’s destructor only deletes heap memory once the reference count reaches 0 (once nobody is referring to it).
 
-
-
