@@ -181,7 +181,7 @@ try {
 } catch (SomeException e) {
     // we can throw another exception to inform people further down the stack
     1. throw SomeUnrelatedException{...};
-    2. throw e; // throws whatever was caught in , possibly sliced version
+    2. throw e; // throws whatever was caught in e, possibly sliced version
     3. throw; // throws the original exception
 }
 ```

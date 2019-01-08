@@ -17,7 +17,7 @@ Node &&other;		// rvalue reference
 
 An 	`rvalue` reference is a reference to a temporary value (one that is about to be destroyed).
 
-Move Constructor
+## Move Constructor
 
 The `move constructor` takes one parameter - an `rvalue` reference. 
 

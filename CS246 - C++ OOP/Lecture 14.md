@@ -158,7 +158,7 @@ Again, this function is associated with the class, not an individual object. So 
 Student::objCreated();
 ```
 
-is valid. 
+is valid.
 
 **<u>NOTE</u>**: Since they aren’t associated with objects, they do not have the implicit `this` parameter. Static member functions can only access static fields or other static member functions.
 

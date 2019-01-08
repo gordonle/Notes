@@ -62,7 +62,7 @@ Only the owner can change permissions
 
 - Command: `chmod` mode file(s)
 
-- | mode | ownership class                                              | operator                                           | permission            |
+  | mode | ownership class                                              | operator                                           | permission            |
   | ---- | ------------------------------------------------------------ | -------------------------------------------------- | --------------------- |
   |      | `u` - user bits<br />`g` - group bits<br />`o` - other bits<br />`a` - all | `+` - add<br />`-` - remove<br />`=` - set exactly | `r`<br />`w`<br />`x` |
 

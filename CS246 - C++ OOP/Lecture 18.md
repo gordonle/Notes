@@ -97,7 +97,7 @@ class Set {
 };
 ```
 
-Use pointers of the base class type forces you to only use operators that the base class supports. This way, we can write code that is no longer tied to any specific data structure. 
+Using pointers of the base class type forces you to only use operators that the base class supports. This way, we can write code that is no longer tied to any specific data structure. 
 
 ```c++
 template <typename Fn>

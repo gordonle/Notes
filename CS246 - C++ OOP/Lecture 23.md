@@ -1,4 +1,4 @@
-# Lecture 23: Exception Safety/Casting
+# Lecture 23: Exception Safety & Casting
 
 > November 27, 2019
 

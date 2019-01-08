@@ -83,7 +83,7 @@ auto p = std::make_unique<c>();
 std::unique_ptr<c> q = p; // this will not compile
 ```
 
-`unique_ptr` does **NOT** have a copy constructor. It is disabled to avoid occurrences of double `free`, since you would have multiple stack objects pointing to the same heap object. 
+`unique_ptr` does **NOT** have a copy constructor. It is disabled to avoid occurrences of double `free`, since you would have multiple stack objects pointing to the same heap object.
 
 A sample implementation of `unique_ptr`s can be found at :file_folder: `lectures/c++/unique_ptr/basicimpl.cc`
 

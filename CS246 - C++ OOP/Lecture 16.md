@@ -56,7 +56,7 @@ bp->isHeavy();
 br.isHeavy();
 ```
 
-The `virtual` method written above is **dispatched dynamically**. The decision on which method to call is based on the **runtime type** of the object, and once you make a field virtual, it remains virtual for all its children.
+The `virtual` method written above is **dispatched dynamically**. The decision on which method to call happens during the **runtime type** of the object, and once you make a field virtual, it remains virtual for all its children.
 
 ### `override` Keyword
 

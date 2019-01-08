@@ -46,7 +46,7 @@ If successful, `c2` is a valid reference to the `Comic`. If unsuccessful, a `bad
 | `static_cast`      | `static_pointer_cast`  |
 | `reinterpret_cast` | **DNE**                |
 | `const_cast`       | `const_pointer_cast`   |
-| `dynamic_cast`     | `dynamic_pointer_type` |
+| `dynamic_cast`     | `dynamic_pointer_cast` |
 
 The shared pointer syntax is used to cast a `shared_ptr` to another `shared_ptr` object.
 
@@ -97,9 +97,7 @@ void whatIsIt(shared_ptr<Book> b) {
 }
 ```
 
-The code above is **tightly coupled** with the class hierarchy, so if you change the hierarchy in any way, we'll also have to do the appropriate changes. The fix? Use a **virtual method**.
-
-
+The code above is **tightly coupled** with the class hierarchy, so if you change the hierarchy in any way, we'll also have to do the appropriate changes. The fix? Use a **virtual method** to print out the type.
 
 ## Template Functions
 
@@ -222,7 +220,7 @@ This will return <u>at least 12</u>. Every time a class has a virtual method, ob
 c.bar();
 ```
 
-For every class that has a virtual method, a **single** virtual table s created. `vptrs` point to virtual tables!S
+For every class that has a virtual method, a **single** virtual table s created. `vptrs` point to virtual tables!
 
 ## Potential Exam Questions
 
