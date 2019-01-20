@@ -49,7 +49,7 @@ Each instruction takes up 4 bytes, and a **program counter** (PC) in the instruc
 
 ### 3.J-Format
 
-`j 28`
+`j 3`
 
 Used for unconditional
 
@@ -60,11 +60,11 @@ To obtain the address for this instruction, you must multiply the number by 4. T
 Let’s examine the following code:
 
 ```php
-Address 0: j 28
+Address 0: j 3
 Address 4: add $1, $2, $3
 Address 8: sub $1, $3, $5
 Address 12: addi $2, $12, 16
 ```
 
-This code will hit line 1, then jump to line 4.
+This code will hit line 1, then jump to address $3*4=12​$.
 

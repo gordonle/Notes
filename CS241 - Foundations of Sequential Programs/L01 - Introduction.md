@@ -37,7 +37,7 @@ What about negative numbers? We could make the first bit a “sign” bit, often
 
 This is wasteful, since we have two representations for 0! (+0 and -0). It also introduces ambiguity when the reader does not know if we are using sign-magnitude or not. Instead, we use **2s-compliment**.
 
-#### 2s-compliment
+#### Two’s-compliment
 
 1. Interpret the $n$-bit number as an unsigned integer
 2. Read the leftmost bit,
