@@ -1,4 +1,4 @@
-CS 240 | January 15, 2019
+CS 240 L3 | January 15, 2019
 
 \*\*\*\***THIS NOTE WILL BE COMPLETED AT A LATER DATE**\*\*\*\*
 

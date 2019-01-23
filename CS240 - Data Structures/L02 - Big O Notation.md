@@ -57,19 +57,19 @@ We want a **tight asymptotic bound.** This leads us to develop two more sets of 
 >
 > Observe: $n^3 log \ n \geq c * n^3$, $\forall n \geq n_o$. Let $c = 1, n_o = 2$ to achieve the desired result.
 
-> **Ex. Show that $2n^2 + 3n + 11 \geq c \* n^2$.**
+> **Ex. Show that $2n^2 + 3n + 11 \geq c * n^2$.**
 >
-> Let $c = 2$. Then: $2n^2 + 3n + 11 \geq 2n^2, \forall n \geq 1 = n_o $.
+> Let $c = 2​$. Then: $2n^2 + 3n + 11 \geq 2n^2, \forall n \geq 1 = n_o ​$.
 
-> **Ex. Show that $\frac{1}{2}n^2 - 5n \in \Omega(n^2)$.**
+> **Ex. Show that $\frac{1}{2}n^2 - 5n \in \Omega(n^2)​$.**
 >
 > We need to show that $\frac{1}{2}n^2 - 5n \geq c * n^2, \forall n \geq n_o$ for $c, n_o \gt 0$. Find $c \lt \frac{1}{2}$ (the leading term of $f(n)$), and $n_o \gt 10$ (to ensure that $f(n)\gt 0$).
 >
-> Choose $c = \frac{1}{4}$. Then, $\frac{1}{2}n^2 - 5n = \frac{1}{4} n^2 + \frac{1}{4}n^2 - 5n \geq \frac{1}{4}n^2$.
+> Choose $c = \frac{1}{4}​$. Then, $\frac{1}{2}n^2 - 5n = \frac{1}{4} n^2 + \frac{1}{4}n^2 - 5n \geq \frac{1}{4}n^2​$.
 >
 > Now, observe: $\frac{1}{4}n^2 - 5n \geq 0$ $\frac{1}{4}n \geq 5$ $n \geq 20$
 >
-> So, if $c = \frac{1}{4}, n_o = 20$, then we achieve the desired result.
+> So, if $c = \frac{1}{4}, n_o = 20​$, then we achieve the desired result.
 
 ### $\Theta$-Notation:
 

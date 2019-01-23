@@ -2,7 +2,7 @@
 typora-root-url: ..\Images
 ---
 
-CS 245 L4 | January 17, 2019
+CS 240 L04 | January 17, 2019
 
 # Techniques for Algorithm Analysis
 
