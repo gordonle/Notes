@@ -217,3 +217,5 @@ T(n) = T(n-1) + cn&=[T(n-2)+c(n-1)]+cn
 \\ &= d + c[(n+2)(\frac{n-1}2)]\in \Theta(n^2)
 \end{align}
 $$
+
+This happens when, for example, the given array is *sorted* and we are looking for *the first element*. Since we always pick our pivot to be the last element, we would have to partition the array $n-1$ times.
