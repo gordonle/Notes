@@ -26,3 +26,14 @@ T^{(\text{avg})}(n) = c \cdot n + \frac1n \sum_{i=0}^{n-1}(T^{(\text{avg})}(i) +
 $$
 Let’s prove that $T^{(\text{avg})}(n) \in \Theta(n \log n)$.
 
+// need to prove
+
+If we randomize our `quick-sort` by using `choose-pivot2`, it would give an *expected time* of $\Theta(n \log n)$. 
+
+The auxiliary space is $\Omega(\text{recursion depth})$
+
+- This is $\Theta(n)$ in the worst-case
+- Can be reduced to $\Theta(\log n)​$ worst-case by recursing in a smaller sub-array first and replacing the other recursion by a while-loop
+
+One should stop recursing when $n \le 10$. One run of `insertion-sort` at the end then sorts everything in $O(n)$ time since all items are within 10 units of their required position. Arrays with many duplicates can be sorted faster by changing `partition` to produce three subsets: |  $\le v$  |  $ = v$  |  $\ge v $  |. In practice, `quick-sort` is often the fastest. 
+
