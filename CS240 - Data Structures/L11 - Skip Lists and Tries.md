@@ -162,7 +162,7 @@ Instead of keeping track of a `0` and `1` child, we define these implicitly with
 
 ## Patricia (Compressed) Tries
 
-PATRICIA: Practical Algorithm To Retrieve Information Coded In Alphanumeric. Here, we only keep track of nodes with *more than one child*. Each node instead stores an ==index==, indicating the bit to be tested.
+<u>PATRICIA</u>: Practical Algorithm To Retrieve Information Coded In Alphanumeric. Here, we only keep track of nodes with *more than one child*. Each node instead stores an ==index==, indicating the bit to be tested.
 
 ![Trie_Patricia](C:\Users\gordo\Documents\Notes\Images\Trie_Patricia.JPG)
 
