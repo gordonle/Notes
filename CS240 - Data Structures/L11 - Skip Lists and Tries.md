@@ -1,4 +1,4 @@
-CS240 L11 | February 14^th^
+CS240 L11 | February 14^th^, 2019
 
 # Skip Lists
 

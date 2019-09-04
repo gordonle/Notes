@@ -72,19 +72,19 @@ Run-time: we can consider the nodes by level.  For a tree of height $h$ with $n$
 | 2     | 4          | $h-2$                             |
 | $h$   | $\le 2^h$  | 0                                 |
 
-So, we have no work to do if we are at the bottom level!
+So, we have no work to do if we are at the bottom level!	
 
 **Lemma:** $n \le 2^{h+1} -1$
 
 **Lemma:** 
 
-for $i$ in {0, 1 , 2, ..., h }, # nodes with height $i \le 2^{h-1}$
+for $i \in \{0, 1 , 2, ..., h \}$, # nodes with height $i \le 2^{h-1}$
 
-\# of swaps for fix-down from height $i$ is $\le i$
+from height $i$, # of swaps for fix-down $\le i$
 
 Total # of swaps:
 $$
-\sum_{i=0}^hi*2^{h-1} \le \sum_{i=0}^hn\frac{i}{2^i} \lt n \sum_{i=1}^\infin \frac{i}{2^i} = 2n
+\sum_{i=0}^h(i\times2^{h-i})  = \sum_{i=0}^h 2^h\frac i{2^i}\le \sum_{i=0}^hn\frac{i}{2^i} \lt n \sum_{i=0}^\infin \frac{i}{2^i} = 2n
 $$
 Thus we have a run-time of $\Theta(n)​$. The benefits of this is that we are using the same array, so no additional space is required.
 
@@ -100,7 +100,7 @@ HeapSort(A, n):
         # deleteMax
         swap items at A[root()] and A[last(n)]
         decrease n
-        fix-down(A, n root())
+        fix-down(A, n, root())
 ```
 
 `Heapify` takes $O(n)$ and `deleteMax` takes $O(nlog\space n)$ so our `HeapSort` takes $O(nlog\space n)$.

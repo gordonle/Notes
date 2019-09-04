@@ -93,7 +93,7 @@ To show strict inequality, we need to introduce two new notations:
 >
 > We need to show that $\forall c \gt 0, \exists \ n_o \gt 0$ such that $2019n^2 + 1388n \lt c *n^3$.
 >
-> *Case 1:* $0 \lt c \lt 1$ $2019n^2 + 1388n \lt 5000n^2, \forall \ n \geq 1$ $2019n^2 + 1388n \leq \frac{5000}{n} * n * n^2, \forall \ n \geq 1$ We need $\frac{5000}{n} \leq c$ to find a valid $c$, so just rearrange and for any $c$, choose $n_o = \frac{5000}{c}$.
+> *Case 1:* $0 \lt c \lt 1$, $2019n^2 + 1388n \lt 5000n^2, \forall \ n \geq 1$ $2019n^2 + 1388n \leq \frac{5000}{n} * n * n^2, \forall \ n \geq 1$ We need $\frac{5000}{n} \leq c$ to find a valid $c$, so just rearrange and for any $c$, choose $n_o = \frac{5000}{c}$.
 
 #### $\omega$-notation
 
